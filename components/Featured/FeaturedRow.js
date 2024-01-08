@@ -25,38 +25,38 @@ const FeaturedRow = ({id, title, description}) => {
         <RestaurantCard 
             id={123}
             imgUrl="https://cdn.sanity.io/images/xnwya7ht/production/f4f953cd529d5dd817431b9aa9e207bd74d017f0-900x600.jpg?w=2000&fit=max&auto=format"
-            title="Namangan"
+            title="Manty"
             rating={4.5}
             genre="Uzbek"
-            address="123 Main St"
+            address="Wolska 78/80, 01-145 Warszawa"
             short_description="One of the best Uzbek cuisines in the town."
             dishes={[]}
-            long={20}
-            lat={0}
+            lat={52.232657420143596}
+            long={20.960363854308742}
         />
         <RestaurantCard 
             id={123}
             imgUrl="https://cdn.sanity.io/images/xnwya7ht/production/b68f4771d25140a9c873caa4a89696e878fbcd8c-900x600.png?w=2000&fit=max&auto=format"
-            title="Taste of Samarkhand"
+            title="Bukhara"
             rating={4.5}
             genre="Uzbek"
-            address="123 Main St"
+            address="Żelazna 51/53, 00-841 Warszawa"
             short_description="Uzbek Restaurant with best national cuisines"
             dishes={[]}
-            long={20}
-            lat={0}
+            lat={52.23452374062549}
+            long={20.990019062896977}
         />
         <RestaurantCard 
             id={123}
             imgUrl="https://cdn.sanity.io/images/xnwya7ht/production/8fdf6bfc902ac5ba1dcf915f11c40d9d88e90ea8-602x602.png?w=2000&fit=max&auto=format"
-            title="Silk Road"
+            title="Samarkand restauracja uzbecka"
             rating={4.5}
             genre="Uzbek"
-            address="123 Main St"
+            address="Aleja Komisji Edukacji Narodowej 97, 02-777 Warszawa"
             short_description="Uzbek traditional restaurant"
             dishes={[]}
-            long={20}
-            lat={0}
+            lat={52.15707058140858}
+            long={21.03219950814447}
         />
         </ScrollView>
     </View>
